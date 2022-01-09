@@ -120,7 +120,7 @@ nav li{
   text-align: center;
   margin:4rem 0;
 }
-.profile{
+.menu{
   cursor: pointer;
   height:45px;
   border-radius: 50px;
@@ -193,7 +193,19 @@ nav li{
     color:#09103D;
     border: 1px solid #09103D;
   }
-}
+  .menu{
+    cursor: pointer;
+    height:45px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0;
+    background: none;
+    color: #09103D;
+    border: 1px solid #09103D;
+    width:100px;
+    font-weight: bolder;
+  }
+
 @media only screen and (min-width:1208px){
   .container::before{
     content:'';
