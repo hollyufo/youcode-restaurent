@@ -71,11 +71,6 @@ nav ul {
   display: flex;
   align-items: center;
 }
-nav li {
-  float: left;
-  display: inline;
-  padding: 0 20px;
-}
 .nav ul li {
   padding: 0 5px;
 }
@@ -101,17 +96,17 @@ nav li {
 .info_button{
   align-items: center;
   cursor: pointer;
-  height:45px;
+  height: 45px;
   border-radius: 50px;
   text-align: center;
   margin: 0 10px;
   background: none;
   color: #431d74;
   border: 1px solid #431d74;
-  width:100px;
+  width: 100px;
   font-weight: bolder;
-  margin-top:20px;
-  margin-left:122px;
+  margin-top: 20px;
+  margin-left: 122px;
 }
 .left{
   width: 300px;
