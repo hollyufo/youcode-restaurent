@@ -68,7 +68,7 @@
 .nav-bar ul li {
   padding: 0px 20px;
 }
-.reviews{
+.order{
   cursor: pointer;
   height:45px;
   border-radius: 50px;
@@ -81,7 +81,7 @@
   font-weight: bolder;
 }
 .quote {
-  color: white;
+  color: black;
   text-align: center;
   margin: 3rem 0px;
 }
@@ -115,8 +115,6 @@
 .item .left .img img {
   height: 450px;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px #4705fc33;
-  object-fit: cover;
 }
 
 .button {
