@@ -1,72 +1,123 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/order_style.css">
-    <title>CafeCode - Choose Your Plate</title>
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style-order.css" />
+    <title>CafeCode - Choose Your dish</title>
   </head>
   <body>
     <div id="wrapper">
+      <header>
         <div class="custom-shape-divider-top-1641460862">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
-        <div class="branding">
-          <a href="./index.html"><img src="./images/logo.png" width="250px" alt="logo"></a>
-            <nav>
-              <ul>
-                <li><a href="./menu.html">Menu</a> </li>
-                <a href="./order.html"><button type="submit" class="order" name="button">Order</button></a>
-                <li><a href="./review.html">Review</a> </li>
-                <li><a href="./profile.html">Profile</a> </li>
-              </ul>
-            </nav>
-        </div>
-        <h1 class="unprofessional_div_name">Choose your dish</h1>
-        <div class="all_items">
-          <div class="item">
-            <div class="left">
-              <div class="img">
-                <img src="./images/food.png" width="550px" alt="food">
-              </div>
-            </div>
-            <div class="right">
-              <h2 class="food_title">Uncooked chicken</h2>
-              <h3 class="food_sub_title">Lorem ipsum dolor sit amet.</h3>
-              <p class="projects_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button type="button" class="button" name="button">Order</button>
-              <button type="button" class="button" name="button">More info</button>
-            </div>
-          </div>
-          <div class="item">
-            <div class="left">
-              <div class="img">
-                <img src="./images/food.png" width="550px" alt="food">
-              </div>
-            </div>
-            <div class="right">
-              <h2 class="food_title">Lorem ipsum dolor sit.</h2>
-              <h3 class="food_sub_title">Lorem ipsum dolor sit amet.</h3>
-              <p class="projects_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button type="button" class="button" name="button">Order</button>
-              <button type="button" class="button" name="button">More Info</button>
-            </div>
-          </div>
-        </div>
-        <div class="custom-shape-divider-bottom-1641465706">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
           </svg>
         </div>
-        <div class="footer">
-          <p>©Made with love by Imrane, Oussama, Riad, Ashraf and Karima.</p>
-        </div>
+        <nav class="nav-bar">
+          <img src="./images/logo.png" width="250px" alt="CafeCode" />
+          <ul>
+            <li><a href="./menu.html">Menu</a></li>
+            <li>
+              <a href="./choice.html"><button class="reviews">Order</button></a>
+            </li>
+            <li><a href="./review.html">Review</a></li>
+            <li><a href="./profile.html">Profile</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="quote">
+        <h1>Choose Your dish for today</h1>
       </div>
+      <div class="all-items">
+        <section class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./images/food.png" width="550px" alt="food" />
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="food_title">lorem ipsum</h2>
+            <h3 class="food_sub_title">Lorem ipsum dolor sit amet.</h3>
+            <p class="food_desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="button">Order</button>
+            <button class="button">More info</button>
+          </div>
+        </section>
+        <section class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./images/food.png" width="550px" alt="food" />
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="food_title">lorem ipsum</h2>
+            <h3 class="food_sub_title">Lorem ipsum dolor sit amet.</h3>
+            <p class="food_desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="button">Order</button>
+            <button class="button">More info</button>
+          </div>
+        </section>
+        <div class="custom-shape-divider-bottom-1641465706">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <footer class="footer">
+          <p>
+            &copy;Made with love by Imrane, Oussama, Riad, Ashraf and Karima.
+          </p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
