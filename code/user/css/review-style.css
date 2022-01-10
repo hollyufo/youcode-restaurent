@@ -207,7 +207,7 @@
       color: #09103d;
     }
     *{
-      overflow:visible;
+      overflow: visible;
     }
   }
   @media (max-width: 860px) {
@@ -218,4 +218,3 @@
           width: 70%;
       }
     }
-  }
