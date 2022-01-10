@@ -2,17 +2,9 @@
 *{
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.branding {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 75%;
-  margin: auto;
 }
 
 /* IDEA: start custom made nav */
@@ -61,19 +53,26 @@
 }
 /* IDEA: end custom made footer */
 
-nav a {
-  color: #a5b1ff;
-  text-decoration: none;
+  .nav-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+  }
+  .nav-bar a {
+    color: #a5b1ff;
     font-size: 17px;
-}
-nav ul {
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-.nav ul li {
-  padding: 0 5px;
-}
+    text-decoration: none;
+  }
+  .nav-bar ul {
+    display: flex;
+    align-items: center;
+  }
+  .nav-bar ul li {
+    padding: 0px 20px;
+  }
 .My-profile{
   display: flex;
   justify-content: center;
@@ -159,9 +158,12 @@ nav ul {
    padding-left: 0px;
  }
 }
-@media  (max-width:678px){
-  .branding{
+@media only screen and (max-width: 757px) {
+  .nav-bar {
     flex-direction: column;
+  }
+  .nav-bar a{
+    color:#09103D;
   }
   .profile{
     cursor: pointer;
@@ -175,10 +177,7 @@ nav ul {
     width:100px;
     font-weight: bolder;
   }
-  nav {
-    margin-top:20px;
-  }
-  nav a{
-    color:#09103D;
+  *{
+    overflow: visible;
   }
 }
